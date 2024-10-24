@@ -1,0 +1,53 @@
+.animation{
+    width: 200px;
+    height: 300px;
+    background-color: blue;
+    animation-name: Color;
+    animation-duration: 5s;
+    animation-timing-function: linear;
+    animation-delay: 0s;
+    animation-direction: normal;
+    animation-iteration-count: infinite;
+    animation-fill-mode: none;
+    animation-play-state: running;
+}
+
+@keyframes Color{
+    0% {background-color: blue;}
+
+    25% {background-color: black;}
+
+    50% {background-color: blueviolet;}
+
+    75% {background-color: green;}
+
+    100% {background-color: aquamarine;}
+}
+
+
+
+.animation{
+    width: 150px;
+    height: 150px;
+    background-color: yellow;
+    animation-name: Color;
+    animation-duration: 5s;
+    animation-timing-function: linear;
+    animation-delay: 0s;
+    animation-direction: normal;
+    animation-iteration-count: infinite;
+    animation-fill-mode: none;
+    animation-play-state: running;
+}
+
+@keyframes Color{
+    0% {background-color: yellow;}
+
+    25% {background-color: orange;}
+
+    50% {background-color: red;}
+
+    75% {background-color: brown;}
+
+    100% {background-color: black;}
+}
